@@ -11,4 +11,6 @@ urlpatterns = [
     path('get/', views.getStudent),
     path('update/', views.updateStudent),
     path('delete/', views.deleteStudent),
+    path('key/', views.getGradeName),
+    path('students/', views.getStudentsName),
 ]
